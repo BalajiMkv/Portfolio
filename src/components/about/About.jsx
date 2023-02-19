@@ -6,9 +6,9 @@ import Info from "./info.jsx";
 
 const About = () => {
   return (
-    <section className="about section" id="about">
+    <section className="about_section" id="about">
       <h2 className="section_title">About me</h2>
-      <span className="section_subtitle"></span>
+      <span className="section_subtitle">My introduction</span>
 
       <div className="about_container container grid">
         <img src={AboutImage} alt="" className="about_img" />

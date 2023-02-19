@@ -3,6 +3,9 @@ import "./App.css";
 import Header from "./components/header/Header.jsx";
 import Home from "./components/home/Home.jsx";
 import About from "./components/about/About.jsx";
+import Skills from "./components/skills/Skills";
+import Services from "./components/services/Services";
+import Qualifications from "./components/qualifications/Qualifications";
 
 const App = () => {
   return (
@@ -12,6 +15,9 @@ const App = () => {
       <main className="main">
         <Home />
         <About />
+        <Skills />
+        <Services />
+        <Qualifications />
       </main>
     </>
   );
